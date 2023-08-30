@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Currency Converter</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="heading">Currency COnverter</h1>
+    <div class="currency__container">
+      <select id="currency__first">
+        <option value="AUD">AUD</option>
+        <option value="USD" selected>USD</option>
+        <option value="GBP">GBP</option>
+        <option value="CAD">CAD</option>
+        <option value="JPY">JPY</option>
+        <option value="EUR">EUR</option>
+        <option value="CNY">CNY</option>
+        <option value="INR">INR</option>
+        <option value="BRL">BRL</option>
+        <option value="RUB">RUB</option>
+        <option value="ZAR">ZAR</option>
+        <option value="MXN">MXN</option>
+        <option value="TRY">TRY</option>
+        <option value="PLN">PLN</option>
+        <option value="EGP">EGP</option>
+        <option value="NGN">NGN</option>
+        <option value="CZK">CZK</option>
+        <option value="MAD">MAD</option>
+        <option value="SDG">SDG</option>
+        <option value="RON">RON</option>
+        <option value="RWF">RWF</option>
+      </select>
+      <input type="number" id="worth__first" value="1" min="0">
+    </div>
+    <div class="currency__container">
+      <select id="currency__second">
+        <option value="AUD">AUD</option>
+        <option value="USD">USD</option>
+        <option value="GBP">GBP</option>
+        <option value="CAD">CAD</option>
+        <option value="JPY">JPY</option>
+        <option value="EUR">EUR</option>
+        <option value="CNY">CNY</option>
+        <option value="INR" selected>INR</option>
+        <option value="BRL">BRL</option>
+        <option value="RUB">RUB</option>
+        <option value="ZAR">ZAR</option>
+        <option value="MXN">MXN</option>
+        <option value="TRY">TRY</option>
+        <option value="PLN">PLN</option>
+        <option value="EGP">EGP</option>
+        <option value="NGN">NGN</option>
+        <option value="CZK">CZK</option>
+        <option value="MAD">MAD</option>
+        <option value="SDG">SDG</option>
+        <option value="RON">RON</option>
+        <option value="RWF">RWF</option>
+      </select>
+      <input type="number" id="worth__second" disabled>
+    </div>
+    <p class="exchange__rate" id="exchange__rate">1 USD = 138.5802 JPY</p>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
